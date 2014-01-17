@@ -17,14 +17,14 @@ class JobsController < ApplicationController
     @mx =Job.maximum('like')
     @mn =Job.minimum('like')
     @av =Job.average('like')
-    respond_to do |format|
+    respond_to do |format| 
         format.html { render action: 'stats',mx: @mx, mn: @mn, av: @av}
     end
   end
 
   def addlike
     @job = Job.find(params[:id])
-    puts @job.description
+    # puts @job.description
     if @job.like!=nil
       @job.like+=1
     else

@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @job.description %>
+</p>
+
+<p>
+  <strong>Starttime:</strong>
+  <%= @job.starttime %>
+</p>
+
+<p>
+  <strong>Priority:</strong>
+  <%= @job.priority %>
+</p>
+<p>
+  <strong>Like:</strong>
+  <%= @job.like %>
+</p>
+
+<%= link_to 'Edit', edit_job_path(@job) %> |
+<%= link_to 'Back', jobs_path %> |
+<%= link_to 'Like', action: "addlike" %>

@@ -1,0 +1,10 @@
+/*
+*= require jobs
+*= require scaffolds
+*= require_directory ./test
+*= require_self
+*/
+
+body {
+	color: red;
+}

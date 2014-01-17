@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyText
+  starttime: 2014-01-15
+  priority: 
+
+two:
+  description: MyText
+  starttime: 2014-01-15
+  priority: 
